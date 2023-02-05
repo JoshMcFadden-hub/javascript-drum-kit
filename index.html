@@ -7,18 +7,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+    </style>
 </head>
 <body>
+<div class="audio">
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+</div>
 <div class="drum-buttons">
-    <button class="clap">clap</button>
-    <button class="hihat">hihat</button>
-    <button class="kick">kick</button>
-    <button class="openhat">openhat</button>
-    <button class="boom">boom</button>
-    <button class="ride">ride</button>
-    <button class="snare">snare</button>
-    <button class="tom">tom</button>
-    <button class="tink">tink</button>
+    <div class="text" data-key="65">
+        <span class="key">A</span>
+        <span>CLAP</span>
+    </div>
+    <div class="text" data-key="83">
+        <span class="key">S</span>
+        <span>HIHAT</span>
+    </div>
+    <div class="text" data-key="68">
+        <span class="key">D</span>
+        <span>KICK</span>
+    </div>
+    <div class="text" data-key="70">
+        <span class="key">F</span>
+        <span>OPENHAT</span>
+    </div>
+    <div class="text" data-key="71">
+        <span class="key">G</span>
+        <span>BOOM</span>
+    </div>
+    <div class="text" data-key="72">
+        <span class="key">H</span>
+        <span>RIDE</span>
+    </div>
+    <div class="text" data-key="74">
+        <span class="key">J</span>
+        <span>SNARE</span>
+    </div>
+    <div class="text" data-key="75">
+        <span class="key">K</span>
+        <span>TOM</span>
+    </div>
+    <div class="text" data-key="76">
+        <span class="key">L</span>
+        <span>TINK</span>
+    </div>
 </div>
 <script src="main.js"></script>
 </body>
